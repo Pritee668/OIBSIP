@@ -1,0 +1,119 @@
+*{
+    margin-left:10px;
+    margin-right:10px;
+    padding:0;
+}
+li:hover{
+    border:1px solid rgb(237, 220, 220);
+    cursor:pointer;
+}
+.nav{
+    position: relative;
+}
+ul{
+    margin-top:-15px;
+    width: 95%;
+    list-style-type: none;
+    display: flex;
+    justify-content:space-evenly ;
+    background-color:black;
+    color:white;
+    font-size:24px;
+    position:fixed;
+
+    
+}
+li{
+margin-top:2px;
+margin-bottom:2px;
+border:2px solid transparent;
+
+
+}
+.gif{
+    background-image: url("gif.gif");
+    height: 140px;
+    width: 45vw;
+    background-size: fill;
+    background-repeat:no-repeat;
+    background-position:50% 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+li a{
+    text-decoration:none;
+    color:white;
+}
+body{
+    background-image: url("gif2.webp");
+    width:90vw;
+    background-size: cover;
+    height:200px;
+   
+
+   
+}
+.photo{
+    background-image:url("photo.png");
+    height:150px;
+    width:150px;
+    background-size: cover;
+    
+}
+.about{
+    margin:400px auto;
+}
+.div1,.div3,.div5,.div7,.div9{
+    margin-top:480px;
+    display:flex;
+    justify-content: center;
+    height: 620px;
+    width: 100%;
+}
+.div2,.div4,.div6,.div8,.div10{
+    margin-top: -540px;
+    margin-left: 450px;
+    height: 200px;
+    width: 560px;
+    border: 2px solid green;
+    text-align:left;
+    font-size: 25px;
+}
+
+.div3,.div5,.div7,.div9{
+    margin-top:490px;
+    
+}
+
+h1{
+    margin:10px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: 40px;
+}
+input{
+    border: 2px solid black;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+}
+textarea{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 60px;
+    width: 250px;
+
+}
+button{
+    background-color: red;
+    color: white;
+    border: 2px solid gray;
+    border-radius: 5px;
+    height: 35px;
+    width:65px;
+    box-shadow: 2px 2px 2px 2pxsolid black;
+}
+button:hover{
+    box-shadow: 3px 3px 2px 2px black;
+}
+ 
